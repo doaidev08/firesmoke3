@@ -14,3 +14,7 @@ pytest >= 5.2
 flake8 >= 4.0.1
 mypy >= 0.930
 black >= 21.12b0
+freeglut3-dev
+libgtk2.0-dev
+numpy==1.19.2
+opencv-python==4.4.0.44
