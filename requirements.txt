@@ -1,9 +1,4 @@
-streamlit==0.74.1
-numpy
-tensorflow-cpu==2.4.0
-opencv-python-headless
-matplotlib==3.3.3
-Pillow==8.1.1
+Pillow==8.4.0
 streamlit-webcam-example==0.1.0
-scipy
-htbuilder
+opencv-python-headless==4.5.5.64
+streamlit==1.7.0
