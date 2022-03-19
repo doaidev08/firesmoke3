@@ -19,7 +19,7 @@ if run:
     if(ipcam):
         while True:
             _, img = cap.read()
-            height, width,channel = img.shape
+            height, width,_ = img.shape
             # img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
             # FRAME_WINDOW.image(img) 
             configFile = 'yolov3_testing.cfg'
