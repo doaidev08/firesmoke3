@@ -1,6 +1,6 @@
 import cv2
 import streamlit as st
-
+from PIL import Image
 st.title("Webcam Live Feed")
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
